@@ -1,28 +1,33 @@
 :root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #637b68;
-    --secondary-color: #3d4c87;
-    --accent1-color: #82644d;
-    --accent2-color: #ffe0b5;
-  
-    /* change the values below to your chosen font(s) */
-    --heading-font: "Fugaz One";
-    --paragraph-font: "Noto Sans", Helvetica, sans-serif;
-  
-    /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #637b68; /* headlines on a white background */
-    --headline-color-on-color: #e8e5da; /* headlines on a colored background */
-    --paragraph-color-on-white: #82644d; /* paragraph text on a white background */
-    --paragraph-color-on-color: #e8e5da; /* paragraph text on a colored background */
-    --paragraph-background-color: #637b68;
-    --nav-link-color: #e8e5da;
-    --nav-background-color: #3d4c87;
-    --nav-hover-link-color: #e8e5da;
-    --nav-hover-background-color: #82644d;
+  /* change the values below to your colors from your palette */
+  --primary-color: #637b68;
+  --secondary-color: #3d4c87;
+  --accent1-color: #82644d;
+  --accent2-color: #e8e5da;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Fugaz One";
+  --paragraph-font: "Noto Sans", Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #637b68; /* headlines on a white background */
+  --headline-color-on-color: #e8e5da; /* headlines on a colored background */
+  --paragraph-color-on-white: #82644d; /* paragraph text on a white background */
+  --paragraph-color-on-color: #e8e5da; /* paragraph text on a colored background */
+  --paragraph-background-color: #637b68;
+  --nav-link-color: #e8e5da;
+  --nav-background-color: #3d4c87;
+  --nav-hover-link-color: #e8e5da;
+  --nav-hover-background-color: #82644d;
+}
 
 #content {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
 }
 
 body {
@@ -35,32 +40,38 @@ header {
 
 nav a {
   text-align: center;
-  color: ;
+  color: #e8e5da;
+  text-decoration: none;
 }
 
 nav a:hover {
   background-color: #82644d;
-  color: ;
+  color: #e8e5da;
 }
 
-.home-title{
-    color: ;
+.home-title {
+  color: #637b68;
 }
 
-h4{
-    color: ;
+#hero-img {
+  width: 100%;
+}
+
+h4 {
+  color: #82644d;
 }
 
 .book,
 .join {
   background-color: #e8e5da;
-  color: ;
+  color: #3d4c87;
+  text-decoration: none;
 }
 
 .book:hover,
 .join:hover {
   background-color: #3d4c87;
-  color: ;
+  color: #82644d;
 }
 
 #hero-msg h1,
@@ -85,23 +96,32 @@ main section {
   background-color: #e8e5da;
 }
 
-.msg h2{
-    color: ;
+.msg h2 {
+  color: #82644d;
 }
 
-.msg p{
-    color: ;
+.msg p {
+  color: #637b68;
 }
 
 footer {
   background-color: #3d4c87;
-  color: ;
+  color: #e8e5da;
 }
 
-footer a{
-    color: ;
+footer a {
+  color: #e8e5da;
+  text-decoration: none;
 }
 
-footer a:hover{
-    color: ;
+footer p {
+  font-size: 1.2 em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #e8e5da;
 }
