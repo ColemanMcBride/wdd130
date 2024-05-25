@@ -32,9 +32,16 @@
   width: 80px;
 }
 
+#logo_link {
+  padding-top: 5px;
+}
+
 body {
   background-color: #fbfaf9;
   font-family: "Noto Sans", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -45,6 +52,7 @@ nav a {
   text-align: center;
   color: #fbfaf9;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -55,6 +63,8 @@ nav a:hover {
 .home-title {
   color: #495b40;
   font-family: "Fugaz One", Georgia, Verdana;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 #hero-img {
@@ -62,8 +72,11 @@ nav a:hover {
 }
 
 h4 {
-  font-family: "Noto Sans", Helvetica, sans-serif;
   color: #6b513d;
+}
+
+h2 {
+  margin: 0;
 }
 
 .book,
@@ -71,6 +84,20 @@ h4 {
   background-color: #fbfaf9;
   color: #3d4c87;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #3d4c87;
 }
 
 .book:hover,
@@ -79,10 +106,13 @@ h4 {
   color: #fbfaf9;
 }
 
+.icon {
+  padding-top: 10px;
+}
+
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
-  font-family: "Noto Sans", Helvetica, sans-serif;
 }
 
 .button-box {
@@ -93,6 +123,10 @@ main section {
   text-align: center;
 }
 
+main section img {
+  box-sizing: border-box;
+}
+
 #background {
   height: 725px;
   background-color: #495b40;
@@ -100,7 +134,8 @@ main section {
 
 .msg {
   background-color: #fbfaf9;
-  font-family: "Noto Sans", Helvetica, sans-serif;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
@@ -110,12 +145,15 @@ main section {
 
 .msg p {
   color: #495b40;
-  font-family: "Noto Sans", Helvetica, sans-serif;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #3d4c87;
   color: #fbfaf9;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -133,4 +171,8 @@ footer p a:hover {
 
 footer a:hover {
   color: #fbfaf9;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
