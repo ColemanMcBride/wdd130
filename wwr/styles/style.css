@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #495b40;
@@ -6,7 +8,7 @@
   --accent2-color: #fbfaf9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Fugaz One";
+  --heading-font: "Fugaz One", Georgia, Verdana;
   --paragraph-font: "Noto Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -32,6 +34,7 @@
 
 body {
   background-color: #fbfaf9;
+  font-family: "Noto Sans", Helvetica, sans-serif;
 }
 
 header {
@@ -51,6 +54,7 @@ nav a:hover {
 
 .home-title {
   color: #495b40;
+  font-family: "Fugaz One", Georgia, Verdana;
 }
 
 #hero-img {
@@ -58,6 +62,7 @@ nav a:hover {
 }
 
 h4 {
+  font-family: "Noto Sans", Helvetica, sans-serif;
   color: #6b513d;
 }
 
@@ -77,6 +82,7 @@ h4 {
 #hero-msg h1,
 #hero-msg h4 {
   text-align: center;
+  font-family: "Noto Sans", Helvetica, sans-serif;
 }
 
 .button-box {
@@ -94,14 +100,17 @@ main section {
 
 .msg {
   background-color: #fbfaf9;
+  font-family: "Noto Sans", Helvetica, sans-serif;
 }
 
 .msg h2 {
   color: #6b513d;
+  font-family: "Fugaz One", Georgia, Verdana;
 }
 
 .msg p {
   color: #495b40;
+  font-family: "Noto Sans", Helvetica, sans-serif;
 }
 
 footer {

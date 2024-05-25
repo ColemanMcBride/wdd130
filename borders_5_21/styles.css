@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.container img {
+  margin-bottom: -5px;
+  width: 100%;
+}
+
+.images {
+  background-color: gray;
+  text-align: center;
+}
+
+.images img {
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid darkslategray;
+  margin: 20px;
+}
