@@ -73,6 +73,11 @@ p {
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+
+img {
+  max-height: 400px;
+  max-width: 400px;
+}
 .colors {
   width: 100%;
   min-width: 350px;
