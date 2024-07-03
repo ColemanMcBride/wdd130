@@ -148,7 +148,7 @@ h4 {
 
 #passion {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 27% 50% 25%;
   margin-bottom: 20px; /* Optional: Adjust margin bottom for spacing */
   text-align: center;
   align-items: center;
