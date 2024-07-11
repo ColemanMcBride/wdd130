@@ -73,6 +73,7 @@ main h2 {
 #now p {
   text-align: center;
   font-family: "Merienda", Helvetica, sans-serif;
+  margin: 2px;
 }
 
 h4 {
@@ -134,7 +135,7 @@ h4 {
   height: auto;
   border-radius: 8px;
   grid-column: 2/3;
-  margin-left: 2px;
+  margin-left: 5px;
 }
 
 #ford p,
