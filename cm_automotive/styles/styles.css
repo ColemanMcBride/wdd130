@@ -11,8 +11,8 @@ body {
   background-color: #eff7ff;
   color: #333;
   display: grid;
-  grid-template-rows: auto 1fr auto; /* Ensure footer is at the bottom */
-  min-height: 100vh; /* Ensures the content stretches to at least the full viewport height */
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 header {
@@ -40,7 +40,7 @@ header a:hover {
 }
 
 main {
-  gap: 20px; /* Adjust as needed */
+  gap: 20px;
   padding: 20px;
   align-items: center;
 }
@@ -67,7 +67,7 @@ main .text {
   grid-column: 1/4;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 20px; /* Optional: Adjust margin bottom for spacing */
+  margin-bottom: 20px;
   margin: 0 auto;
   max-width: 70%;
 }

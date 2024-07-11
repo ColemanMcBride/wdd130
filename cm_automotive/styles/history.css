@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Quintessential&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #eff7ff;
+  color: #333;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  background: #0b132b;
+  color: #d1b96b;
+  padding: 5px 0;
+  text-align: center;
+}
+
+header a {
+  color: #d1b96b;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #eff7ff;
+}
+
+.logo {
+  max-width: 125px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  width: auto;
+}
+
+main .text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+main h2 {
+  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  font-size: 2.5em;
+  margin: 2%;
+  text-align: center;
+}
+
+#benz p,
+#ford p,
+#wwii p,
+#fifties p,
+#seventies p,
+#nineties p,
+#now p {
+  text-align: center;
+  font-family: "Merienda", Helvetica, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  border-right: solid #0b132b 3px;
+}
+
+#benz,
+#ford,
+#wwii,
+#fifties,
+#seventies,
+#nineties,
+#now {
+  display: grid;
+  grid-template-columns: 15% 30% 25% 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+#benz,
+#wwii,
+#seventies,
+#now {
+  background-color: #495b40;
+  color: #eff7ff;
+}
+
+#ford,
+#fifties,
+#nineties {
+  background-color: #eff7ff;
+  color: #495b40;
+}
+
+#benz img,
+#wwii img,
+#seventies img,
+#now img {
+  grid-column: 4/5;
+  height: auto;
+  border-radius: 8px;
+}
+
+#benz p,
+#wwii p,
+#seventies p,
+#now p {
+  grid-column: 2/4;
+  text-align: center;
+}
+
+#ford img,
+#fifties img,
+#nineties img {
+  height: auto;
+  border-radius: 8px;
+  grid-column: 2/3;
+  margin-left: 2px;
+}
+
+#ford p,
+#fifties p,
+#nineties p {
+  grid-column: 3/5;
+}
+
+footer {
+  background: #0b132b;
+  color: #d1b96b;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #d1b96b;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background: #0b132b;
+  color: #eff7ff;
+}
