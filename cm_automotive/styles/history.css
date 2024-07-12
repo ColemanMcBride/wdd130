@@ -127,6 +127,7 @@ h4 {
 #now p {
   grid-column: 2/4;
   text-align: center;
+  margin-left: 3px;
 }
 
 #ford img,
