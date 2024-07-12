@@ -78,8 +78,8 @@ main h2 {
 
 h4 {
   text-align: center;
-  font-size: 2em;
-  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  font-size: 2.5em;
+  font-family: "Impact", "Trebuchet MS", sans-serif;
   border-right: solid #0b132b 3px;
 }
 
@@ -127,7 +127,7 @@ h4 {
 #now p {
   grid-column: 2/4;
   text-align: center;
-  margin-left: 3px;
+  margin: 4px;
 }
 
 #ford img,
