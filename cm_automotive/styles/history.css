@@ -92,9 +92,10 @@ h4 {
 #now {
   display: grid;
   grid-template-columns: 15% 30% 25% 30%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 #benz,
@@ -117,8 +118,10 @@ h4 {
 #seventies img,
 #now img {
   grid-column: 4/5;
-  height: auto;
+  max-height: 90%;
   border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #benz p,
@@ -133,10 +136,12 @@ h4 {
 #ford img,
 #fifties img,
 #nineties img {
-  height: auto;
+  max-height: 90%;
   border-radius: 8px;
   grid-column: 2/3;
   margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #ford p,

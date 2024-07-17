@@ -116,7 +116,7 @@ h4 {
 
 #history img {
   grid-column: 3/4;
-  height: auto;
+  height: 90%;
   border-radius: 8px;
 }
 
@@ -125,7 +125,7 @@ h4 {
 }
 
 #whatkindacar img {
-  height: auto;
+  height: 90%;
   border-radius: 8px;
   grid-column: 1/2;
 }
@@ -135,7 +135,7 @@ h4 {
 }
 
 #author img {
-  height: auto;
+  height: 90%;
   border-radius: 8px;
   max-height: 200px;
   grid-column: 3/4;

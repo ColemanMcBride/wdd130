@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Quintessential&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #eff7ff;
+  color: #333;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  background: #0b132b;
+  color: #d1b96b;
+  padding: 5px 0;
+  text-align: center;
+}
+
+header a {
+  color: #d1b96b;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #eff7ff;
+}
+
+.logo {
+  max-width: 125px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  width: auto;
+}
+
+main p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+main h2 {
+  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  font-size: 2.5em;
+  margin: 2%;
+  text-align: center;
+}
+
+#compact p,
+#sedan p,
+#coupe p,
+#wagon p,
+#suv p,
+#minivan p,
+#truck p,
+#convertible p,
+#sportscar p {
+  text-align: center;
+  font-family: "Merienda", Helvetica, sans-serif;
+  margin: 4px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  margin: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Quintessential", "Impact", "Trebuchet MS", sans-serif;
+  border-right: solid #0b132b 3px;
+}
+
+#compact,
+#sedan,
+#coupe,
+#wagon,
+#suv,
+#minivan,
+#truck,
+#convertible,
+#sportscar {
+  display: grid;
+  grid-template-columns: 15% 30% 25% 30%;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#compact,
+#coupe,
+#suv,
+#truck,
+#sportscar {
+  background-color: #495b40;
+  color: #eff7ff;
+}
+
+#sedan,
+#wagon,
+#minivan,
+#convertible {
+  background-color: #eff7ff;
+  color: #495b40;
+}
+
+#compact img,
+#coupe img,
+#suv img,
+#truck img,
+#sportscar img {
+  grid-column: 4/5;
+  max-height: 90%;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#compact p,
+#coupe p,
+#suv p,
+#truck p,
+#sportscar p {
+  grid-column: 2/4;
+  text-align: center;
+  margin: 4px;
+}
+
+#sedan img,
+#wagon img,
+#minivan img,
+#convertible img {
+  max-height: 90%;
+  border-radius: 8px;
+  grid-column: 2/3;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#sedan p,
+#wagon p,
+#minivan p,
+#convertible p {
+  grid-column: 3/5;
+}
+
+footer {
+  background: #0b132b;
+  color: #d1b96b;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer a {
+  color: #d1b96b;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background: #0b132b;
+  color: #eff7ff;
+}
